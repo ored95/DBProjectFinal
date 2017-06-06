@@ -1,0 +1,9 @@
+1;Aeroflot;5
+2;Air Astana;5
+3;Finnair (Oneworld);5
+4;Austrian Airlines;4
+5;Vietnam Airlines;5
+6;S7 Airlines;4
+7;Korean Air;5
+8;China Southern;4
+9;SkyTeams;5

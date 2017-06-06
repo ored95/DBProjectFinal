@@ -1,0 +1,25 @@
+1;Moscow, Russia;Domodedovo International Airport;DME
+2;Moscow, Russia;Sheremetyevo International Airport;SVO
+3;Moscow, Russia;Vnukovo International Airport;VKO
+4;Moscow, Russia;Zhukovsky International Airport;ZIA
+5;Paris, France;Charles de Gaulle Airport;CDG
+6;Kerry, Ireland;Kerry Airport;KIR
+7;Amsterdam, Neitherlands;Amsterdam Airport Schiphol;AMS
+8;Berlin, Germany;Berlin Tegel Airport;TXL
+9;Frankfurt, Germany;Frankfurt Airport;FRA
+10;Rome, Italy;Leonardo da Vinci-Fiumicino Airport;FCO
+11;Saint Petersburg, Russia;Pulkovo Airport;LED
+12;Sochi, Russia;Sochi International Airport;AER
+13;Istanbul, Turkey;Ataturk International Airport;IST
+14;Helsinki, Finland;Helsinki-Vantaa Airport;HEL
+15;Stockholm, Sweden;Stockholm-Arlanda Airport;ARN
+16;London, England;Gatwick Airport;LGW
+17;Manchester, England;Manchester Airport;MAN
+18;Liverpool, England;Liverpool John Lennon Airport;LPL
+19;Sydney, Australia;Sydney Airport;SYD
+20;Melbourne, Australia;Melbourne Airport;MEL
+21;Dubai, India;Dubai International Airport;DXB
+22;Hanoi, Vietnam;Noi Bai International Airport;HAN
+23;Ho Chi Minh, Vietnam; Tan Son Nhat International Airport;SGN
+24;HongKong, China;Hong Kong International Airport;HKG
+25;Bangkok, Thailand;Suvarnabhumi Airport;BKK

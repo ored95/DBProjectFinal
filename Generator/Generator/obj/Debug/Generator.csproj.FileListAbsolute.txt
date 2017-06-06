@@ -1,0 +1,6 @@
+D:\Database\Generator\Generator\bin\Debug\Generator.exe.config
+D:\Database\Generator\Generator\bin\Debug\Generator.exe
+D:\Database\Generator\Generator\bin\Debug\Generator.pdb
+D:\Database\Generator\Generator\obj\Debug\Generator.csprojResolveAssemblyReference.cache
+D:\Database\Generator\Generator\obj\Debug\Generator.exe
+D:\Database\Generator\Generator\obj\Debug\Generator.pdb

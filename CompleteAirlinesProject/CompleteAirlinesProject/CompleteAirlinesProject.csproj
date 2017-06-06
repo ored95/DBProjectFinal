@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{627BC6B0-D9CC-40A0-AD88-F6C2EEDE7C5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompleteAirlinesProject</RootNamespace>
+    <AssemblyName>CompleteAirlinesProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView">
+      <HintPath>..\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirlinesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlinesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\AirlineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\AirlineForm.Designer.cs">
+      <DependentUpon>AirlineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\AirplaneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\AirplaneForm.Designer.cs">
+      <DependentUpon>AirplaneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\AirportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\AirportForm.Designer.cs">
+      <DependentUpon>AirportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\AppLibraries.cs" />
+    <Compile Include="EditForms\BookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\BookingForm.Designer.cs">
+      <DependentUpon>BookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\FlightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\FlightForm.Designer.cs">
+      <DependentUpon>FlightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\GraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graph\GraphForm.Designer.cs">
+      <DependentUpon>GraphForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainAirlinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainAirlinesForm.Designer.cs">
+      <DependentUpon>MainAirlinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForms\AirlineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\AirlineForm.Designer.cs">
+      <DependentUpon>AirlineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForms\AirplaneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\AirplaneForm.Designer.cs">
+      <DependentUpon>AirplaneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForms\AirportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\AirportForm.Designer.cs">
+      <DependentUpon>AirportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForms\AllForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\AllForm.Designer.cs">
+      <DependentUpon>AllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForms\BookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\BookingForm.Designer.cs">
+      <DependentUpon>BookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForms\FlightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForms\FlightForm.Designer.cs">
+      <DependentUpon>FlightForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EditForms\AirlineForm.resx">
+      <DependentUpon>AirlineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\AirplaneForm.resx">
+      <DependentUpon>AirplaneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\AirportForm.resx">
+      <DependentUpon>AirportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\BookingForm.resx">
+      <DependentUpon>BookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\FlightForm.resx">
+      <DependentUpon>FlightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\GraphForm.resx">
+      <DependentUpon>GraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainAirlinesForm.resx">
+      <DependentUpon>MainAirlinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchForms\AirlineForm.resx">
+      <DependentUpon>AirlineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForms\AirplaneForm.resx">
+      <DependentUpon>AirplaneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForms\AirportForm.resx">
+      <DependentUpon>AirportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForms\AllForm.resx">
+      <DependentUpon>AllForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForms\BookingForm.resx">
+      <DependentUpon>BookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForms\FlightForm.resx">
+      <DependentUpon>FlightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AirlinesDataSet.xsc">
+      <DependentUpon>AirlinesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AirlinesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlinesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlinesDataSet.xss">
+      <DependentUpon>AirlinesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
